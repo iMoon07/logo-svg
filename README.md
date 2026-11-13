@@ -7,19 +7,19 @@ Local logo assets collected for the **Logo Field — Chaos Mode** (hacking/cyber
 ```text
 logo/
 ├── security/      # Hacking, pentest, forensics, IDS/IPS, C2, defense tools (348)
-├── stack/         # Infra, DevOps, cloud, OS, virtualization, platform tools (58)
-├── programming/   # Programming languages and developer tools/editors (61)
+├── stack/         # Infra, DevOps, cloud, OS, virtualization, platform tools (71)
+├── programming/   # Programming languages, frameworks, and developer tools (96)
 └── README.md
 ```
 
-**Totals:** 467 image files (465 SVG, 2 PNG).
+**Totals:** 515 image files (513 SVG, 2 PNG).
 
 | Folder | Files | Formats |
 |---|---:|---|
 | `security/` | 348 | SVG, PNG (`covenant.png`) |
-| `stack/` | 58 | SVG, PNG (`kvm.png`) |
-| `programming/` | 61 | SVG |
-| **Total** | **467** | **465 SVG, 2 PNG** |
+| `stack/` | 71 | SVG, PNG (`kvm.png`) |
+| `programming/` | 96 | SVG |
+| **Total** | **515** | **513 SVG, 2 PNG** |
 
 ## Gallery
 
@@ -63,7 +63,7 @@ logo/
 | <img src="security/wazuh.svg" height="40"> | <img src="security/webby.svg" height="40"> | <img src="security/webscarab.svg" height="40"> | <img src="security/webshells.svg" height="40"> | <img src="security/weevely.svg" height="40"> | <img src="security/wesnoth-editor.svg" height="40"> | <img src="security/wfuzz.svg" height="40"> | <img src="security/whatweb.svg" height="40"> | <img src="security/wifite.svg" height="40"> | <img src="security/wireguard.svg" height="40"> |
 | <img src="security/wireshark.svg" height="40"> | <img src="security/wordlists.svg" height="40"> | <img src="security/wpscan.svg" height="40"> | <img src="security/wpscrackgui.svg" height="40"> | <img src="security/xfwm4compositeeditor.svg" height="40"> | <img src="security/xmlcopyeditor.svg" height="40"> | <img src="security/yara.svg" height="40"> | <img src="security/zaproxy.svg" height="40"> |   |   |
 
-### stack (58)
+### stack (71)
 
 |   |   |   |   |   |   |   |   |   |   |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -73,8 +73,10 @@ logo/
 | <img src="stack/kvm.png" height="40"> | <img src="stack/libvirt.svg" height="40"> | <img src="stack/linux.svg" height="40"> | <img src="stack/nginx.svg" height="40"> | <img src="stack/ngrok.svg" height="40"> | <img src="stack/openbsd.svg" height="40"> | <img src="stack/opentelemetry.svg" height="40"> | <img src="stack/postgresql.svg" height="40"> | <img src="stack/prometheus.svg" height="40"> | <img src="stack/qemu.svg" height="40"> |
 | <img src="stack/raspberry-pi.svg" height="40"> | <img src="stack/redhat.svg" height="40"> | <img src="stack/redis.svg" height="40"> | <img src="stack/spark.svg" height="40"> | <img src="stack/splunk.svg" height="40"> | <img src="stack/sqlite.svg" height="40"> | <img src="stack/swagger.svg" height="40"> | <img src="stack/terraform.svg" height="40"> | <img src="stack/trafik.svg" height="40"> | <img src="stack/ubuntu.svg" height="40"> |
 | <img src="stack/vault.svg" height="40"> | <img src="stack/virt-manager.svg" height="40"> | <img src="stack/virtualbox.svg" height="40"> | <img src="stack/vmware-netcfg.svg" height="40"> | <img src="stack/vmware-player.svg" height="40"> | <img src="stack/vmware-workstation.svg" height="40"> | <img src="stack/vmware.svg" height="40"> | <img src="stack/windows.svg" height="40"> |   |   |
+| <img src="stack/apachekafka.svg" height="40"> | <img src="stack/chronograf.svg" height="40"> | <img src="stack/iis.svg" height="40"> | <img src="stack/influxdb.svg" height="40"> | <img src="stack/kapacitor.svg" height="40"> | <img src="stack/kibana.svg" height="40"> | <img src="stack/logstash.svg" height="40"> | <img src="stack/mariadb.svg" height="40"> | <img src="stack/mongodb.svg" height="40"> | <img src="stack/mysql.svg" height="40"> |
+| <img src="stack/opensearch.svg" height="40"> | <img src="stack/rabbitmq.svg" height="40"> | <img src="stack/telegraf.svg" height="40"> |   |   |   |   |   |   |   |
 
-### programming (61)
+### programming (96)
 
 |   |   |   |   |   |   |   |   |   |   |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -85,6 +87,82 @@ logo/
 | <img src="programming/powershell.svg" height="40"> | <img src="programming/python-kali.svg" height="40"> | <img src="programming/python.svg" height="40"> | <img src="programming/qt.svg" height="40"> | <img src="programming/r.svg" height="40"> | <img src="programming/ruby.svg" height="40"> | <img src="programming/rust-kali.svg" height="40"> | <img src="programming/rust.svg" height="40"> | <img src="programming/sass.svg" height="40"> | <img src="programming/scala.svg" height="40"> |
 | <img src="programming/solidity.svg" height="40"> | <img src="programming/sublime-text.svg" height="40"> | <img src="programming/swift.svg" height="40"> | <img src="programming/typescript.svg" height="40"> | <img src="programming/v.svg" height="40"> | <img src="programming/vim.svg" height="40"> | <img src="programming/vscode-insiders.svg" height="40"> | <img src="programming/vscode.svg" height="40"> | <img src="programming/webassembly.svg" height="40"> | <img src="programming/yaml.svg" height="40"> |
 | <img src="programming/zig.svg" height="40"> |   |   |   |   |   |   |   |   |   |
+| <img src="programming/actix.svg" height="40"> | <img src="programming/angular.svg" height="40"> | <img src="programming/astro.svg" height="40"> | <img src="programming/axum.svg" height="40"> | <img src="programming/blazor.svg" height="40"> | <img src="programming/django.svg" height="40"> | <img src="programming/echo.svg" height="40"> | <img src="programming/express.svg" height="40"> | <img src="programming/fastapi.svg" height="40"> | <img src="programming/fiber.svg" height="40"> |
+| <img src="programming/flask.svg" height="40"> | <img src="programming/gin.svg" height="40"> | <img src="programming/htmx.svg" height="40"> | <img src="programming/jakartaee.svg" height="40"> | <img src="programming/jamstack.svg" height="40"> | <img src="programming/koa.svg" height="40"> | <img src="programming/laravel.svg" height="40"> | <img src="programming/nestjs.svg" height="40"> | <img src="programming/nextdotjs.svg" height="40"> | <img src="programming/nuxt.svg" height="40"> |
+| <img src="programming/phoenixframework.svg" height="40"> | <img src="programming/prisma.svg" height="40"> | <img src="programming/pyramid.svg" height="40"> | <img src="programming/quarkus.svg" height="40"> | <img src="programming/react.svg" height="40"> | <img src="programming/remix.svg" height="40"> | <img src="programming/rocket.svg" height="40"> | <img src="programming/rubyonrails.svg" height="40"> | <img src="programming/sinatra.svg" height="40"> | <img src="programming/spring.svg" height="40"> |
+| <img src="programming/svelte.svg" height="40"> | <img src="programming/symfony.svg" height="40"> | <img src="programming/tailwindcss.svg" height="40"> | <img src="programming/trpc.svg" height="40"> | <img src="programming/vue.svg" height="40"> |   |   |   |   |   |
+
+## Technology Stack Combinations
+
+The logos are grouped here by the role they play in a stack, so a whole
+combination can be assembled from one folder. The filenames are what the
+topology diagrams use.
+
+### Web / application servers
+| Role | Files |
+|---|---|
+| Web servers | `stack/apache.svg`, `stack/nginx.svg`, `stack/iis.svg`, `stack/trafik.svg` |
+| Java servlet | `programming/jakartaee.svg`, `programming/spring.svg`, `programming/quarkus.svg` |
+| Node runtimes | `programming/nodejs.svg`, `programming/deno.svg`, `programming/bun.svg` |
+| .NET runtime | `programming/dotnet.svg`, `programming/blazor.svg` |
+
+### Data stores
+| Role | Files |
+|---|---|
+| Relational | `stack/mysql.svg`, `stack/mariadb.svg`, `stack/postgresql.svg`, `stack/sqlite.svg` |
+| Document / KV | `stack/mongodb.svg`, `stack/redis.svg` |
+| Search / analytics | `stack/elasticsearch.svg`, `stack/opensearch.svg`, `stack/splunk.svg` |
+| Time series | `stack/influxdb.svg` |
+| Messaging | `stack/kafka.svg`, `stack/apachekafka.svg`, `stack/rabbitmq.svg` |
+| Big data | `stack/hadoop.svg`, `stack/spark.svg` |
+| ORM | `programming/prisma.svg` |
+
+### Observability
+| Role | Files |
+|---|---|
+| Metrics | `stack/prometheus.svg`, `stack/influxdb.svg`, `stack/opentelemetry.svg` |
+| Dashboards | `stack/grafana.svg`, `stack/kibana.svg`, `stack/chronograf.svg` |
+| Collection | `stack/telegraf.svg` |
+| Stream processing | `stack/kapacitor.svg`, `stack/logstash.svg` |
+| Security / SIEM | `security/wazuh.svg`, `stack/opensearch.svg`, `stack/kibana.svg` |
+
+### CI/CD, cloud, and platform
+| Role | Files |
+|---|---|
+| CI | `stack/jenkins.svg`, `stack/github-actions.svg`, `stack/gitlab.svg` |
+| GitOps / deploy | `stack/argocd.svg`, `stack/helm.svg` |
+| Containers / orchestration | `stack/docker.svg`, `stack/kubernetes.svg` |
+| IaC / secrets | `stack/terraform.svg`, `stack/ansible.svg`, `stack/hashicorp.svg`, `stack/vault.svg` |
+| Cloud | `stack/aws.svg`, `stack/gcp.svg`, `stack/cloudflare.svg`, `stack/ngrok.svg` |
+| OS / virtualization | `stack/linux.svg`, `stack/ubuntu.svg`, `stack/debian.svg`, `stack/alpinelinux.svg`, `stack/fedora.svg`, `stack/arch-linux.svg`, `stack/redhat.svg`, `stack/freebsd.svg`, `stack/openbsd.svg`, `stack/windows.svg`, `stack/kvm.png`, `stack/virtualbox.svg`, `stack/vmware.svg` |
+
+### Programming languages and frameworks
+| Role | Files |
+|---|---|
+| Systems | `programming/rust.svg`, `programming/go.svg`, `programming/c.svg`, `programming/cplusplus.svg`, `programming/zig.svg`, `programming/nim.svg` |
+| JVM | `programming/java.svg`, `programming/kotlin.svg`, `programming/scala.svg`, `programming/clojure.svg`, `programming/groovy.svg` |
+| Scripting | `programming/python.svg`, `programming/php.svg`, `programming/ruby.svg`, `programming/perl.svg`, `programming/lua.svg` |
+| Web / mobile | `programming/javascript.svg`, `programming/typescript.svg`, `programming/dart.svg`, `programming/swift.svg`, `programming/svelte.svg`, `programming/vue.svg`, `programming/angular.svg`, `programming/react.svg`, `programming/nextdotjs.svg`, `programming/nuxt.svg`, `programming/astro.svg` |
+| Rust web | `programming/actix.svg`, `programming/axum.svg`, `programming/rocket.svg` |
+| Go web | `programming/gin.svg`, `programming/echo.svg`, `programming/fiber.svg` |
+| Node web | `programming/express.svg`, `programming/koa.svg`, `programming/nestjs.svg`, `programming/trpc.svg` |
+| Python web | `programming/django.svg`, `programming/flask.svg`, `programming/fastapi.svg` |
+| PHP web | `programming/laravel.svg`, `programming/symfony.svg` |
+| Elixir / .NET | `programming/phoenixframework.svg`, `programming/dotnet.svg` |
+
+### Common combinations
+| Combination | Logos |
+|---|---|
+| LAMP | `stack/linux.svg` + `stack/apache.svg` + `stack/mysql.svg` + `programming/php.svg` |
+| LEMP | `stack/linux.svg` + `stack/nginx.svg` + `stack/mysql.svg` + `programming/php.svg` |
+| ELK | `stack/elasticsearch.svg` + `stack/logstash.svg` + `stack/kibana.svg` |
+| TICK | `stack/telegraf.svg` + `stack/influxdb.svg` + `stack/chronograf.svg` + `stack/kapacitor.svg` |
+| Wazuh / SIEM | `security/wazuh.svg` + `stack/opensearch.svg` + `stack/kibana.svg` |
+| MERN | `stack/mongodb.svg` + `programming/express.svg` + `programming/react.svg` + `programming/nodejs.svg` |
+| MEAN | `stack/mongodb.svg` + `programming/express.svg` + `programming/angular.svg` + `programming/nodejs.svg` |
+| .NET / IIS | `programming/dotnet.svg` + `stack/iis.svg` + `stack/windows.svg` |
+| JVM / Spring | `programming/java.svg` + `programming/spring.svg` + `stack/apachekafka.svg` |
+| DevOps | `stack/docker.svg` + `stack/kubernetes.svg` + `stack/helm.svg` + `stack/argocd.svg` + `stack/prometheus.svg` + `stack/grafana.svg` |
 
 ## Collection Notes
 
@@ -140,6 +218,19 @@ logo/
 | `vmware-netcfg.svg` | kali-flat-icons (`V/vmware-netcfg.svg`) | SVG, downloaded locally |
 | `gnome-boxes.svg` | kali-flat-icons (`G/gnome-boxes.svg`) | SVG, downloaded locally |
 - Already present: `vmware.svg`, `virtualbox.svg`.
+
+### 7) Recent additions (solution-stack logos)
+
+| File | Source | Validation |
+|---|---|---|
+| `programming/actix.svg`, `programming/rocket.svg`, `programming/gin.svg`, `programming/trpc.svg`, `programming/blazor.svg` | Simple Icons CDN (`https://cdn.simpleicons.org/<slug>`) | SVG, brand-colored, kept verbatim |
+| `programming/echo.svg`, `programming/fiber.svg`, `programming/jakartaee.svg` | Simple Icons CDN wordmarks, cropped to the symbol | SVG |
+| `programming/axum.svg`, `stack/iis.svg` | Hand-drawn SVG (no official single-color mark) | SVG |
+| `programming/sinatra.svg`, `programming/pyramid.svg` | Base64 raster fallback embedded in an SVG wrapper | SVG (raster inside) |
+| `stack/chronograf.svg` | Official InfluxData brand asset | SVG, gradient |
+| `stack/telegraf.svg`, `stack/kapacitor.svg` | InfluxData brand assets | SVG |
+| `stack/opensearch.svg` | OpenSearch brand asset (`fill="#005EB8"`) | SVG |
+| `stack/mariadb.svg`, `stack/mongodb.svg`, `stack/mysql.svg`, `stack/influxdb.svg`, `stack/kibana.svg`, `stack/logstash.svg`, `stack/apachekafka.svg`, `stack/rabbitmq.svg` | Simple Icons CDN (`https://cdn.simpleicons.org/<slug>`) | SVG |
 
 ## Remaining / Missing (not fetched)
 
