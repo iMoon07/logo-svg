@@ -8,7 +8,7 @@ Local logo assets collected for the **Logo Field — Chaos Mode** (hacking/cyber
 logo/
 ├── security/                # Hacking, pentest, forensics, IDS/IPS, C2, defense tools
 ├── security-icons/          # Security icon set (PNG, raster)
-├── security-3d/             # Security icons, 3D / isometric renders (PNG)
+├── security-3d/             # Security icons, 3D renders (PNG + WebP)
 ├── security-illustration/   # Security illustrations (PNG)
 ├── motion/                  # Animated security glyphs (SMIL SVG, 64x64)
 ├── stack/                   # Infra, DevOps, cloud, OS, virtualization, platform tools
@@ -19,13 +19,13 @@ logo/
 └── README.md
 ```
 
-**Totals:** 2690 image files (2011 SVG, 679 PNG).
+**Totals:** 2798 image files (2011 SVG, 679 PNG, 108 WebP).
 
 | Folder | Files | Formats |
 |---|---:|---|
 | `security/` | 348 | 347 SVG, 1 PNG (`covenant.png`) |
 | `security-icons/` | 642 | PNG |
-| `security-3d/` | 17 | PNG |
+| `security-3d/` | 125 | PNG (17), WebP (108) |
 | `security-illustration/` | 18 | PNG |
 | `motion/` | 19 | SVG (animated, SMIL) |
 | `stack/` | 71 | 70 SVG, 1 PNG (`kvm.png`) |
@@ -34,7 +34,7 @@ logo/
 | `brands/` | 12 | SVG |
 | `unicons-line/` | 1215 | SVG |
 | `unicons-solid/` | 190 | SVG |
-| **Total** | **2690** | **2011 SVG, 679 PNG** |
+| **Total** | **2798** | **2011 SVG, 679 PNG, 108 WebP** |
 
 `profession/` and `security-icons/` each also carry a `LICENSE.txt` for the
 upstream icon set (not counted above).
@@ -137,6 +137,32 @@ Motion design notes:
   so glyphs placed together drift out of phase rather than beating in lockstep.
 - The only references are internal `clip-path="url(#…)"` targets defined in
   each file's own `<defs>`; there are no external, script, or CSS dependencies.
+
+### security-3d (125)
+
+Static 3D renders. `free-*.png` are 450×450 RGBA PNG; `thridy/*.webp` are 512×512 WebP with alpha (see [Thridy](#8-thridy-3d-icons)).
+
+|  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| <img src="security-3d/free-binary-coding-3d-icon-png-download-3463353.png" height="48"> | <img src="security-3d/free-check-shield-3d-icon-png-download-15106544.png" height="48"> | <img src="security-3d/free-dynamite-bomb-3d-icon-png-download-8425600.png" height="48"> | <img src="security-3d/free-file-access-3d-icon-png-download-9395339.png" height="48"> | <img src="security-3d/free-find-ip-address-3d-icon-png-download-5121809.png" height="48"> | <img src="security-3d/free-google-account-security-3d-icon-png-download-14850242.png" height="48"> | <img src="security-3d/free-lock-key-3d-icon-png-download-12470121.png" height="48"> | <img src="security-3d/free-metaverse-3d-icon-png-download-3915167.png" height="48"> | <img src="security-3d/free-padlock-3d-icon-png-download-5576126.png" height="48"> | <img src="security-3d/free-photos-3d-icon-png-download-15391088.png" height="48"> | <img src="security-3d/free-protection-3d-icon-png-download-15376800.png" height="48"> | <img src="security-3d/free-secure-photoshop-3d-icon-png-download-14904430.png" height="48"> |
+| <img src="security-3d/free-secure-web-3d-icon-png-download-9211050.png" height="48"> | <img src="security-3d/free-security-shield-3d-icon-png-download-12885359.png" height="48"> | <img src="security-3d/free-thief-with-black-hoodie-3d-icon-png-download-10523307.png" height="48"> | <img src="security-3d/free-two-step-verification-3d-icon-png-download-4897779.png" height="48"> | <img src="security-3d/free-virus-alert-3d-icon-png-download-5804641.png" height="48"> | <img src="security-3d/ai-security-3d-icon.webp" height="48"> | <img src="security-3d/antivirus-3d-icon.webp" height="48"> | <img src="security-3d/biometric-id-3d-icon.webp" height="48"> | <img src="security-3d/biometric-identification-3d-icon.webp" height="48"> | <img src="security-3d/biometric-scan-3d-icon.webp" height="48"> | <img src="security-3d/biometric-scanner-3d-icon.webp" height="48"> | <img src="security-3d/biometric-security-3d-icon.webp" height="48"> |
+| <img src="security-3d/browser-security-3d-icon.webp" height="48"> | <img src="security-3d/cloud-firewall-3d-icon.webp" height="48"> | <img src="security-3d/cloud-security-3d-icon.webp" height="48"> | <img src="security-3d/computer-malware-3d-icon.webp" height="48"> | <img src="security-3d/computer-password-3d-icon.webp" height="48"> | <img src="security-3d/computer-security-3d-icon.webp" height="48"> | <img src="security-3d/computer-virus-3d-icon.webp" height="48"> | <img src="security-3d/crime-3d-icon.webp" height="48"> | <img src="security-3d/cyber-3d-icon.webp" height="48"> | <img src="security-3d/cyber-arm-3d-icon.webp" height="48"> | <img src="security-3d/cyber-attack-3d-icon.webp" height="48"> | <img src="security-3d/cyber-crime-3d-icon.webp" height="48"> |
+| <img src="security-3d/cyber-fortress-3d-icon.webp" height="48"> | <img src="security-3d/cyber-security-3d-icon.webp" height="48"> | <img src="security-3d/cyber-securityprotect-shield-3d-icon.webp" height="48"> | <img src="security-3d/cyber-thief-hacking-data-3d-icon.webp" height="48"> | <img src="security-3d/cybersecurity-3d-icon.webp" height="48"> | <img src="security-3d/cybersecurity-analyst-3d-icon.webp" height="48"> | <img src="security-3d/dark-web-3d-icon.webp" height="48"> | <img src="security-3d/data-breach-3d-icon-2.webp" height="48"> | <img src="security-3d/data-breach-3d-icon.webp" height="48"> | <img src="security-3d/data-encryption-3d-icon.webp" height="48"> | <img src="security-3d/data-leak-3d-icon.webp" height="48"> | <img src="security-3d/data-phishing-3d-icon.webp" height="48"> |
+| <img src="security-3d/data-security-3d-icon.webp" height="48"> | <img src="security-3d/database-security-3d-icon.webp" height="48"> | <img src="security-3d/ddos-attack-3d-icon.webp" height="48"> | <img src="security-3d/email-security-3d-icon.webp" height="48"> | <img src="security-3d/encrypted-data-3d-icon.webp" height="48"> | <img src="security-3d/encrypted-file-3d-icon.webp" height="48"> | <img src="security-3d/encrypted-number-3d-icon.webp" height="48"> | <img src="security-3d/encryption-3d-icon.webp" height="48"> | <img src="security-3d/encryption-key-3d-icon.webp" height="48"> | <img src="security-3d/file-security-3d-icon.webp" height="48"> | <img src="security-3d/fingerprint-3d-icon.webp" height="48"> | <img src="security-3d/fingerprint-key-3d-icon.webp" height="48"> |
+| <img src="security-3d/fingerprint-lock-3d-icon.webp" height="48"> | <img src="security-3d/fingerprint-lock-security-3d-icon.webp" height="48"> | <img src="security-3d/fingerprint-phone-3d-icon.webp" height="48"> | <img src="security-3d/fingerprint-reader-3d-icon.webp" height="48"> | <img src="security-3d/fingerprint-scan-3d-icon.webp" height="48"> | <img src="security-3d/fingerprint-scanner-3d-icon.webp" height="48"> | <img src="security-3d/fingerprint-security-3d-icon.webp" height="48"> | <img src="security-3d/fingerprint-shield-3d-icon.webp" height="48"> | <img src="security-3d/fingerprint-unlock-3d-icon.webp" height="48"> | <img src="security-3d/firewall-3d-icon.webp" height="48"> | <img src="security-3d/firewall-protection-3d-icon.webp" height="48"> | <img src="security-3d/fraud-detection-3d-icon.webp" height="48"> |
+| <img src="security-3d/hack-3d-icon.webp" height="48"> | <img src="security-3d/hacker-3d-icon.webp" height="48"> | <img src="security-3d/internet-security-3d-icon.webp" height="48"> | <img src="security-3d/laptop-password-3d-icon.webp" height="48"> | <img src="security-3d/laptop-security-3d-icon.webp" height="48"> | <img src="security-3d/mail-security-3d-icon.webp" height="48"> | <img src="security-3d/malware-3d-icon.webp" height="48"> | <img src="security-3d/malware-usb-3d-icon.webp" height="48"> | <img src="security-3d/mobile-password-3d-icon.webp" height="48"> | <img src="security-3d/no-security-3d-icon.webp" height="48"> | <img src="security-3d/one-time-password-3d-icon.webp" height="48"> | <img src="security-3d/passkey-3d-icon.webp" height="48"> |
+| <img src="security-3d/password-3d-icon.webp" height="48"> | <img src="security-3d/password-manager-3d-icon.webp" height="48"> | <img src="security-3d/password-protected-3d-icon.webp" height="48"> | <img src="security-3d/password-security-3d-icon.webp" height="48"> | <img src="security-3d/phishing-3d-icon.webp" height="48"> | <img src="security-3d/phishing-email-3d-icon.webp" height="48"> | <img src="security-3d/phishing-protection-3d-icon.webp" height="48"> | <img src="security-3d/phishing-scam-3d-icon.webp" height="48"> | <img src="security-3d/phone-security-3d-icon.webp" height="48"> | <img src="security-3d/phone-virus-3d-icon.webp" height="48"> | <img src="security-3d/privacy-policy-3d-icon.webp" height="48"> | <img src="security-3d/ransomware-3d-icon.webp" height="48"> |
+| <img src="security-3d/scam-alert-3d-icon.webp" height="48"> | <img src="security-3d/scammer-3d-icon.webp" height="48"> | <img src="security-3d/secure-browser-3d-icon.webp" height="48"> | <img src="security-3d/secure-database-3d-icon.webp" height="48"> | <img src="security-3d/secure-email-3d-icon.webp" height="48"> | <img src="security-3d/secure-file-3d-icon.webp" height="48"> | <img src="security-3d/secure-mail-3d-icon.webp" height="48"> | <img src="security-3d/secure-network-3d-icon.webp" height="48"> | <img src="security-3d/secure-phone-3d-icon.webp" height="48"> | <img src="security-3d/secure-server-3d-icon.webp" height="48"> | <img src="security-3d/secure-usb-3d-icon.webp" height="48"> | <img src="security-3d/secure-usb-drive-3d-icon.webp" height="48"> |
+| <img src="security-3d/secure-vpn-3d-icon.webp" height="48"> | <img src="security-3d/security-ai-3d-icon.webp" height="48"> | <img src="security-3d/security-alert-3d-icon.webp" height="48"> | <img src="security-3d/security-check-3d-icon.webp" height="48"> | <img src="security-3d/security-key-3d-icon.webp" height="48"> | <img src="security-3d/security-shield-3d-icon.webp" height="48"> | <img src="security-3d/security-testing-3d-icon.webp" height="48"> | <img src="security-3d/server-security-3d-icon.webp" height="48"> | <img src="security-3d/two-factor-auth-3d-icon.webp" height="48"> | <img src="security-3d/usb-security-3d-icon.webp" height="48"> | <img src="security-3d/usb-virus-3d-icon.webp" height="48"> | <img src="security-3d/virus-scan-3d-icon.webp" height="48"> |
+| <img src="security-3d/vpn-3d-icon.webp" height="48"> | <img src="security-3d/vpn-shield-3d-icon.webp" height="48"> | <img src="security-3d/web-security-3d-icon.webp" height="48"> | <img src="security-3d/website-security-3d-icon.webp" height="48"> | <img src="security-3d/wi-fi-password-3d-icon.webp" height="48"> |  |  |  |  |  |  |  |
+
+Icon groups in `thridy/manifest.json` (each entry carries `slug`, `group`, `source`, `license`):
+
+| Group | Count | Examples |
+|---|---:|---|
+| `hacking` | 12 | `cyber-3d-icon`, `cyber-arm-3d-icon`, `cyber-attack-3d-icon`, `cyber-fortress-3d-icon` |
+| `crime` | 23 | `antivirus-3d-icon`, `computer-malware-3d-icon`, `computer-virus-3d-icon`, `crime-3d-icon` |
+| `security` | 73 | `ai-security-3d-icon`, `biometric-id-3d-icon`, `biometric-identification-3d-icon`, `biometric-scan-3d-icon` |
 
 ## Technology Stack Combinations
 
@@ -288,3 +314,20 @@ topology diagrams use.
 
 - Files are organized by category under `security/`, `stack/`, and `programming/`.
 - Prefer SVG for UI/animation (e.g. chaos logo field). Keep attribution/source in mind when redistributing brand assets.
+
+### 8) Thridy 3D icons
+
+| Folder | Source | Validation |
+|---|---|---|
+| `security-3d/thridy/*.webp` | Thridy (`https://thridy.com/<slug>`), 108 icons | WebP, 512×512, alpha, verified with PIL |
+| `security-3d/thridy/manifest.json` | generated by `ai-tools/fetch/thridy_fetch.py` | slug, group, title, source URL, license per icon |
+
+Selection: hacking / malware / phishing / fraud / cyber-attack plus the core
+security set (firewall, encryption, VPN, biometric, password, privacy).
+Excluded as off-topic: `roof-security`, `ripple-security`, `blockchain-security`,
+`security-camera`, `security-system`, `security-chip`.
+
+License: Thridy states free for personal and commercial use. The files here are
+the public 512 px preview assets; the site's PNG downloads are credit-limited
+(5/day on the free plan), so re-fetch through `thridy_fetch.py` rather than
+bulk-downloading from the web UI.
