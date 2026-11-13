@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+<title>Database pulse</title>
+  <g stroke="#58A6FF" stroke-width="3" stroke-linejoin="round">
+    <path d="M16 18v28c0 3.3 7.2 6 16 6s16-2.7 16-6V18"/>
+    <ellipse cx="32" cy="18" rx="16" ry="6"/>
+    <path d="M16 32c0 3.3 7.2 6 16 6s16-2.7 16-6" opacity=".55"/>
+  </g>
+  <g stroke="#24A8AF" stroke-width="2" fill="none">
+    <ellipse cx="32" cy="34" rx="16" ry="8" opacity=".6">
+      <animate attributeName="rx" values="15;27" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="ry" values="7;14" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".6;0" dur="2.2s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="32" cy="34" rx="16" ry="8" opacity=".6">
+      <animate attributeName="rx" values="15;27" dur="2.2s" begin="1.1s" repeatCount="indefinite"/>
+      <animate attributeName="ry" values="7;14" dur="2.2s" begin="1.1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".6;0" dur="2.2s" begin="1.1s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+</svg>

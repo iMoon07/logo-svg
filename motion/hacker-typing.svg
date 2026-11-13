@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+<title>Hacker typing</title>
+  <rect x="13" y="12" width="38" height="30" rx="4" stroke="#58A6FF" stroke-width="3"/>
+  <g fill="#24A8AF">
+    <rect x="19" y="20" width="0" height="3" rx="1.5">
+      <animate attributeName="width" values="0;16;16" keyTimes="0;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="19" y="27" width="0" height="3" rx="1.5">
+      <animate attributeName="width" values="0;22;22" keyTimes="0;0.4;1" dur="2.4s" begin="0.25s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="19" y="34" width="0" height="3" rx="1.5">
+      <animate attributeName="width" values="0;11;11" keyTimes="0;0.45;1" dur="2.4s" begin="0.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="43" y="33" width="2" height="8" fill="#24A8AF"><animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite" calcMode="discrete"/></rect>
+  <path d="M8 48h48l4 6H4Z" stroke="#1C2033" stroke-width="3" stroke-linejoin="round"/>
+</svg>

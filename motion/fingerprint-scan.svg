@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+<title>Fingerprint scan</title>
+  <defs>
+    <clipPath id="fp"><rect x="12" y="12" width="40" height="40" rx="10"/></clipPath>
+  </defs>
+  <g stroke="#24A8AF" stroke-width="3" stroke-linecap="round" clip-path="url(#fp)">
+    <path d="M18 46c0-16 6-27 14-27s14 11 14 27"/>
+    <path d="M23 48c0-14 4-22 9-22s9 8 9 22"/>
+    <path d="M27.5 50c0-12 2-18 4.5-18s4.5 6 4.5 18"/>
+    <path d="M31 52v-9"/>
+  </g>
+  <g clip-path="url(#fp)">
+    <rect x="12" y="0" width="40" height="2.6" fill="#24A8AF" opacity=".5">
+      <animateTransform attributeName="transform" type="translate" values="0 14; 0 50; 0 14" dur="2.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines=".4 0 .6 1;.4 0 .6 1"/>
+    </rect>
+  </g>
+</svg>

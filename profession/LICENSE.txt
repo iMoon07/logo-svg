@@ -1,0 +1,13 @@
+OpenMoji
+https://openmoji.org
+License: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0/
+
+The profession icons in this folder are based on OpenMoji color SVG assets.
+OpenMoji is licensed under Creative Commons Attribution-ShareAlike 4.0
+International (CC BY-SA 4.0).
+
+Each icon is a composed tile: an OpenMoji glyph on a pastel gradient
+background. The OpenMoji artwork remains under CC BY-SA 4.0.
+
+Attribution: OpenMoji — https://openmoji.org

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+<title>Eye scan</title>
+  <path d="M7 32c8-12 42-12 50 0-8 12-42 12-50 0Z" stroke="#58A6FF" stroke-width="3" stroke-linejoin="round"/>
+  <g><animateTransform attributeName="transform" type="translate" values="-7 0;7 0;-7 0" dur="3.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines=".4 0 .6 1;.4 0 .6 1"/><circle cx="32" cy="32" r="6.5" fill="#24A8AF"/></g>
+  <rect x="9" y="0" width="2.6" height="40" fill="#24A8AF" opacity=".45" clip-path="inset(0)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 44;0 0" dur="2.4s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines=".4 0 .6 1;.4 0 .6 1"/>
+  </rect>
+  <clipPath id="ec"><path d="M7 32c8-12 42-12 50 0-8 12-42 12-50 0Z"/></clipPath>
+  <g clip-path="url(#ec)">
+    <rect x="0" y="0" width="2.6" height="64" fill="#24A8AF" opacity=".45">
+      <animateTransform attributeName="transform" type="translate" values="10 0;52 0;10 0" dur="2.4s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines=".4 0 .6 1;.4 0 .6 1"/>
+    </rect>
+  </g>
+</svg>

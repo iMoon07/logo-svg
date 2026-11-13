@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+<title>User verify</title>
+  <circle cx="32" cy="23" r="9.5" stroke="#58A6FF" stroke-width="3.2"/>
+  <path d="M13 53a19 19 0 0 1 38 0" stroke="#58A6FF" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="m23 38 7 7 14-15" stroke="#24A8AF" stroke-width="4" stroke-linecap="round"
+        stroke-linejoin="round" stroke-dasharray="34" stroke-dashoffset="34">
+    <animate attributeName="stroke-dashoffset" values="34;0;0" keyTimes="0;0.55;1"
+             dur="2.2s" repeatCount="indefinite"/>
+  </path>
+</svg>

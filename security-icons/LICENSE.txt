@@ -1,0 +1,18 @@
+IconScout free assets
+https://iconscout.com/free-icons/cyber-security-hacker
+
+These files were downloaded from IconScout's free Cyber Security Hacker
+collection. They include icons, 3D icons, and illustrations from multiple
+contributors. IconScout free assets are royalty-free for commercial and
+personal use, but license terms vary per asset (IconScout license, CC BY 4.0,
+MIT, etc.). Check the source page for each asset before redistribution.
+
+Source collection:
+https://iconscout.com/free-icons/cyber-security-hacker
+https://iconscout.com/free-3d-icons/cyber-security-hacker
+https://iconscout.com/free-illustrations/cyber-security-hacker
+
+The folders are kept separate from the older `security/` tool logos:
+- `security-icons/` (642 PNG icons)
+- `security-3d/` (17 PNG 3D icons)
+- `security-illustration/` (18 PNG illustrations)

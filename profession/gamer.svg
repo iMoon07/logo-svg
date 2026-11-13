@@ -1,19 +1,29 @@
-<!-- @license lucide-static v0.468.0 - ISC -->
-<svg
-  class="lucide lucide-gamepad"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <line x1="6" x2="10" y1="12" y2="12" />
-  <line x1="8" x2="8" y1="10" y2="14" />
-  <line x1="15" x2="15.01" y1="13" y2="13" />
-  <line x1="18" x2="18.01" y1="11" y2="11" />
-  <rect width="20" height="12" x="2" y="6" rx="2" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e0f2fe"/>
+      <stop offset="1" stop-color="#bae6fd"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <rect x="0.75" y="0.75" width="62.5" height="62.5" rx="13.25" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="1.5"/>
+  <g transform="translate(8 8) scale(0.6666667)">
+
+  <g id="color">
+    <polyline fill="#ea5a47" points="17 55 17 52 24 52 24 55"/>
+    <circle cx="36" cy="17" r="10" fill="#ea5a47"/>
+    <path fill="#3f3f3f" d="m27,55c0-3.866,4.0294-7,9-7s9,3.134,9,7"/>
+    <rect x="33" y="27" width="6" height="21" fill="#9b9b9a" stroke="#9b9b9a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="14" y="55" width="44" height="10" fill="#9b9b9a"/>
+    <path fill="#d22f27" d="m41,8.75l-6.7801,17.6767,2.6882-.1985c1.9946-.1473,3.8699-1.0063,5.2842-2.4205l.8544-.8544c1.26-1.26,2.0244-2.9314,2.1536-4.7086l.0747-1.0284c.1337-1.8403-.4324-3.6632-1.585-5.104l-2.6899-3.3624Z"/>
+  </g>
+  <g id="line">
+    <rect x="14" y="55" width="44" height="10" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2" d="m27,55c0-3.866,4.0294-7,9-7s9,3.134,9,7"/>
+    <polyline fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="17 55 17 52 24 52 24 55"/>
+    <polyline fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="39 44.703 39 44 39 27 33 27 33 44.7053"/>
+    <circle cx="36" cy="17" r="10" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+
+  </g>
 </svg>
