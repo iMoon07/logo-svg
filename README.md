@@ -6,20 +6,38 @@ Local logo assets collected for the **Logo Field — Chaos Mode** (hacking/cyber
 
 ```text
 logo/
-├── security/      # Hacking, pentest, forensics, IDS/IPS, C2, defense tools (348)
-├── stack/         # Infra, DevOps, cloud, OS, virtualization, platform tools (71)
-├── programming/   # Programming languages, frameworks, and developer tools (96)
+├── security/                # Hacking, pentest, forensics, IDS/IPS, C2, defense tools
+├── security-icons/          # Security icon set (PNG, raster)
+├── security-3d/             # Security icons, 3D / isometric renders (PNG)
+├── security-illustration/   # Security illustrations (PNG)
+├── motion/                  # Animated security glyphs (SMIL SVG, 64x64)
+├── stack/                   # Infra, DevOps, cloud, OS, virtualization, platform tools
+├── programming/             # Programming languages, frameworks, and developer tools
+├── brands/                  # Generic brand marks
+├── unicons-line/            # Unicons line icon set
+├── unicons-solid/           # Unicons solid icon set
 └── README.md
 ```
 
-**Totals:** 515 image files (513 SVG, 2 PNG).
+**Totals:** 2690 image files (2011 SVG, 679 PNG).
 
 | Folder | Files | Formats |
 |---|---:|---|
-| `security/` | 348 | SVG, PNG (`covenant.png`) |
-| `stack/` | 71 | SVG, PNG (`kvm.png`) |
+| `security/` | 348 | 347 SVG, 1 PNG (`covenant.png`) |
+| `security-icons/` | 642 | PNG |
+| `security-3d/` | 17 | PNG |
+| `security-illustration/` | 18 | PNG |
+| `motion/` | 19 | SVG (animated, SMIL) |
+| `stack/` | 71 | 70 SVG, 1 PNG (`kvm.png`) |
 | `programming/` | 96 | SVG |
-| **Total** | **515** | **513 SVG, 2 PNG** |
+| `profession/` | 62 | SVG |
+| `brands/` | 12 | SVG |
+| `unicons-line/` | 1215 | SVG |
+| `unicons-solid/` | 190 | SVG |
+| **Total** | **2690** | **2011 SVG, 679 PNG** |
+
+`profession/` and `security-icons/` each also carry a `LICENSE.txt` for the
+upstream icon set (not counted above).
 
 ## Gallery
 
@@ -91,6 +109,34 @@ logo/
 | <img src="programming/flask.svg" height="40"> | <img src="programming/gin.svg" height="40"> | <img src="programming/htmx.svg" height="40"> | <img src="programming/jakartaee.svg" height="40"> | <img src="programming/jamstack.svg" height="40"> | <img src="programming/koa.svg" height="40"> | <img src="programming/laravel.svg" height="40"> | <img src="programming/nestjs.svg" height="40"> | <img src="programming/nextdotjs.svg" height="40"> | <img src="programming/nuxt.svg" height="40"> |
 | <img src="programming/phoenixframework.svg" height="40"> | <img src="programming/prisma.svg" height="40"> | <img src="programming/pyramid.svg" height="40"> | <img src="programming/quarkus.svg" height="40"> | <img src="programming/react.svg" height="40"> | <img src="programming/remix.svg" height="40"> | <img src="programming/rocket.svg" height="40"> | <img src="programming/rubyonrails.svg" height="40"> | <img src="programming/sinatra.svg" height="40"> | <img src="programming/spring.svg" height="40"> |
 | <img src="programming/svelte.svg" height="40"> | <img src="programming/symfony.svg" height="40"> | <img src="programming/tailwindcss.svg" height="40"> | <img src="programming/trpc.svg" height="40"> | <img src="programming/vue.svg" height="40"> |   |   |   |   |   |
+
+### motion (19)
+
+Animated security glyphs, hand-drawn on a 64×64 viewBox with a transparent
+background. Animation is **SMIL only** (`<animate>`, `<animateTransform>`,
+`<animateMotion>`) — no CSS, no JS, no external references — so each file works
+as a standalone `<img src>` or inline `<svg>` and loops forever on its own.
+
+Palette: `#58A6FF` (primary), `#24A8AF` (secondary), `#E7B549` (accent),
+`#DE524C` (alert), `rgba(88,166,255,.45)` (dim strokes).
+
+|   |   |   |   |   |
+| --- | --- | --- | --- | --- |
+| <img src="motion/shield-scan.svg" height="64"> | <img src="motion/fingerprint-scan.svg" height="64"> | <img src="motion/lock-pulse.svg" height="64"> | <img src="motion/hacker-typing.svg" height="64"> | <img src="motion/terminal-cursor.svg" height="64"> |
+| <img src="motion/cloud-sync.svg" height="64"> | <img src="motion/data-flow.svg" height="64"> | <img src="motion/bug-crawl.svg" height="64"> | <img src="motion/shield-block.svg" height="64"> | <img src="motion/eye-scan.svg" height="64"> |
+| <img src="motion/server-blink.svg" height="64"> | <img src="motion/wifi-pulse.svg" height="64"> | <img src="motion/key-turn.svg" height="64"> | <img src="motion/chart-grow.svg" height="64"> | <img src="motion/bell-ring.svg" height="64"> |
+| <img src="motion/search-scan.svg" height="64"> | <img src="motion/user-verify.svg" height="64"> | <img src="motion/database-pulse.svg" height="64"> | <img src="motion/rocket-launch.svg" height="64"> |  |
+
+Motion design notes:
+
+- Every glyph keeps its **un-animated base markup readable**: strip the
+  `<animate*>` elements and each file is still a complete, correct icon.
+- `<title>` is set per file for accessible names and for use as a symbol
+  reference.
+- Durations run 0.45s–3.4s and all 19 files use `repeatCount="indefinite"`,
+  so glyphs placed together drift out of phase rather than beating in lockstep.
+- The only references are internal `clip-path="url(#…)"` targets defined in
+  each file's own `<defs>`; there are no external, script, or CSS dependencies.
 
 ## Technology Stack Combinations
 
