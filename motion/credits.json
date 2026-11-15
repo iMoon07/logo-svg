@@ -1,0 +1,641 @@
+[
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "bell-ring (self-authored)",
+  "origin": "self",
+  "file": "motion/bell-ring.svg"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "bug-crawl (self-authored)",
+  "origin": "self",
+  "file": "motion/bug-crawl.svg"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "chart-grow (self-authored)",
+  "origin": "self",
+  "file": "motion/chart-grow.svg"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "cloud-sync (self-authored)",
+  "origin": "self",
+  "file": "motion/cloud-sync.svg"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "data-flow (self-authored)",
+  "origin": "self",
+  "file": "motion/data-flow.svg"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "database-pulse (self-authored)",
+  "origin": "self",
+  "file": "motion/database-pulse.svg"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "eye-scan (self-authored)",
+  "origin": "self",
+  "file": "motion/eye-scan.svg"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "fingerprint-scan (self-authored)",
+  "origin": "self",
+  "file": "motion/fingerprint-scan.svg"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "hacker-typing (self-authored)",
+  "origin": "self",
+  "file": "motion/hacker-typing.svg"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "hacker-using-laptop (self-authored)",
+  "origin": "self",
+  "file": "motion/hacker-using-laptop.webp"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "key-turn (self-authored)",
+  "origin": "self",
+  "file": "motion/key-turn.svg"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "lock-pulse (self-authored)",
+  "origin": "self",
+  "file": "motion/lock-pulse.svg"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "lock (self-authored)",
+  "origin": "self",
+  "file": "motion/lock.webp"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "rocket-launch (self-authored)",
+  "origin": "self",
+  "file": "motion/rocket-launch.svg"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "search-scan (self-authored)",
+  "origin": "self",
+  "file": "motion/search-scan.svg"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "security-research (self-authored)",
+  "origin": "self",
+  "file": "motion/security-research.webp"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "security (self-authored)",
+  "origin": "self",
+  "file": "motion/security.webp"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "server-blink (self-authored)",
+  "origin": "self",
+  "file": "motion/server-blink.svg"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "server-security (self-authored)",
+  "origin": "self",
+  "file": "motion/server-security.webp"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "shield-block (self-authored)",
+  "origin": "self",
+  "file": "motion/shield-block.svg"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "shield-scan (self-authored)",
+  "origin": "self",
+  "file": "motion/shield-scan.svg"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "shield (self-authored)",
+  "origin": "self",
+  "file": "motion/shield.webp"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-12-dots-scale-rotate — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-12-dots-scale-rotate.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-180-ring-with-bg — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-180-ring-with-bg.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-180-ring — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-180-ring.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-270-ring-with-bg — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-270-ring-with-bg.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-270-ring — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-270-ring.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-3-dots-bounce — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-3-dots-bounce.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-3-dots-fade — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-3-dots-fade.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-3-dots-move — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-3-dots-move.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-3-dots-rotate — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-3-dots-rotate.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-3-dots-scale-middle — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-3-dots-scale-middle.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-3-dots-scale — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-3-dots-scale.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-6-dots-rotate — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-6-dots-rotate.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-6-dots-scale-middle — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-6-dots-scale-middle.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-6-dots-scale — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-6-dots-scale.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-8-dots-rotate — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-8-dots-rotate.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-90-ring-with-bg — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-90-ring-with-bg.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-90-ring — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-90-ring.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-bars-fade — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-bars-fade.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-bars-rotate-fade — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-bars-rotate-fade.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-bars-scale-fade — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-bars-scale-fade.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-bars-scale-middle — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-bars-scale-middle.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-bars-scale — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-bars-scale.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-blocks-scale — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-blocks-scale.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-blocks-shuffle-2 — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-blocks-shuffle-2.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-blocks-shuffle-3 — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-blocks-shuffle-3.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-blocks-wave — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-blocks-wave.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-bouncing-ball — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-bouncing-ball.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-clock — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-clock.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-dot-revolve — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-dot-revolve.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-eclipse-half — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-eclipse-half.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-eclipse — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-eclipse.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-gooey-balls-1 — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-gooey-balls-1.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-gooey-balls-2 — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-gooey-balls-2.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-pulse-2 — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-pulse-2.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-pulse-3 — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-pulse-3.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-pulse-multiple — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-pulse-multiple.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-pulse-ring — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-pulse-ring.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-pulse-rings-2 — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-pulse-rings-2.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-pulse-rings-3 — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-pulse-rings-3.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-pulse-rings-multiple — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-pulse-rings-multiple.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-pulse — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-pulse.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-ring-resize — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-ring-resize.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-tadpole — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-tadpole.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-wifi-fade — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-wifi-fade.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-wifi — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-wifi.svg"
+ },
+ {
+  "author": "n3r4zzurr0",
+  "license": "MIT",
+  "license_name": "MIT",
+  "source": "https://github.com/n3r4zzurr0/svg-spinners",
+  "credit": "spin-wind-toy — n3r4zzurr0",
+  "origin": "third-party",
+  "file": "motion/spin-wind-toy.svg"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "terminal-cursor (self-authored)",
+  "origin": "self",
+  "file": "motion/terminal-cursor.svg"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "user-verify (self-authored)",
+  "origin": "self",
+  "file": "motion/user-verify.svg"
+ },
+ {
+  "author": "Alur",
+  "license": "MIT (this repository)",
+  "license_name": "MIT (this repository)",
+  "source": "",
+  "credit": "wifi-pulse (self-authored)",
+  "origin": "self",
+  "file": "motion/wifi-pulse.svg"
+ }
+]
