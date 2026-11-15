@@ -7,6 +7,8 @@ Local logo assets collected for the **Logo Field — Chaos Mode** (hacking/cyber
 ```text
 logo/
 ├── security/                # Hacking, pentest, forensics, IDS/IPS, C2, defense tools
+├── security-tools/          # OSS security tools whose only mark is a raster favicon
+├── security-enterprise/     # Commercial security vendors (raster favicons)
 ├── security-icons/          # Security icon set (PNG, raster)
 ├── security-3d/             # Security icons, 3D renders (PNG + WebP)
 ├── security-illustration/   # Security illustrations (PNG)
@@ -19,22 +21,24 @@ logo/
 └── README.md
 ```
 
-**Totals:** 2849 image files (2012 SVG, 679 PNG, 158 WebP).
+**Totals:** 3119 image files (2282 SVG, 909 PNG, 158 WebP).
 
 | Folder | Files | Formats |
 |---|---:|---|
-| `security/` | 348 | 347 SVG, 1 PNG (`covenant.png`) |
+| `security/` | 382 | 381 SVG, 1 PNG (`covenant.png`) |
+| `security-tools/` | 28 | PNG (OSS tool marks, no SVG published) |
+| `security-enterprise/` | 87 | PNG (commercial vendor marks) |
 | `security-icons/` | 642 | PNG |
 | `security-3d/` | 175 | PNG (17), WebP (158) |
 | `security-illustration/` | 18 | PNG |
-| `motion/` | 19 | SVG (animated, SMIL) |
-| `stack/` | 72 | 71 SVG, 1 PNG (`kvm.png`) |
-| `programming/` | 96 | SVG |
+| `motion/` | 71 | SVG (65 animated SMIL), WebP (6) |
+| `stack/` | 117 | 116 SVG, 1 PNG (`kvm.png`) |
+| `programming/` | 122 | SVG |
 | `profession/` | 62 | SVG |
 | `brands/` | 12 | SVG |
 | `unicons-line/` | 1215 | SVG |
 | `unicons-solid/` | 190 | SVG |
-| **Total** | **2849** | **2012 SVG, 679 PNG, 158 WebP** |
+| **Total** | **3119** | **2282 SVG, 909 PNG, 158 WebP** |
 
 `profession/` and `security-icons/` each also carry a `LICENSE.txt` for the
 upstream icon set (not counted above).
