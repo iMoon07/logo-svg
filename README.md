@@ -34,51 +34,6 @@ logo/
 ├── unicons-line/            # Unicons line icon set
 ├── unicons-solid/           # Unicons solid icon set
 └── README.md
-```text
-logo/
-├── security/                # Hacking, pentest, forensics, IDS/IPS, C2, defense tools
-├── security-tools/          # OSS security tools whose only mark is a raster favicon
-├── security-enterprise/     # Commercial security vendors (raster favicons)
-├── security-icons/          # Security icon set (PNG, raster)
-├── security-3d/             # Security icons, 3D renders (PNG + WebP)
-├── security-illustration/   # Security illustrations (PNG)
-├── motion/                  # Animated security glyphs (SMIL SVG, 64x64)
-├── stack/                   # Infra, DevOps, cloud, OS, virtualization, platform tools
-├── programming/             # Programming languages, frameworks, and developer tools
-├── brands/                  # Generic brand marks
-├── unicons-line/            # Unicons line icon set
-├── unicons-solid/           # Unicons solid icon set
-└── README.md
-```text
-logo/
-├── security/                # Hacking, pentest, forensics, IDS/IPS, C2, defense tools
-├── security-tools/          # OSS security tools whose only mark is a raster favicon
-├── security-enterprise/     # Commercial vendors, split by product category
-│   ├── siem/                # SIEM, log analytics, SOAR, SOC platforms
-│   ├── tip/                 # Threat intelligence, brand & exposure intel
-│   ├── ids-ips/             # IDS/IPS, NDR, network detection
-│   ├── waf/                 # WAF, CDN, edge protection
-│   ├── iam/                 # Identity, SSO, PAM, secrets, password managers
-│   ├── xdr-edr/             # EDR, XDR, MDR, managed detection
-│   ├── cloud/               # Cloud, container, Kubernetes, CNAPP, CSPM
-│   ├── appsec/              # SAST, DAST, SCA, secrets scanning, supply chain
-│   ├── pentest/             # Pentest platforms, red team, C2, bug bounty
-│   ├── forensics/           # Forensics, IR, sandbox, reverse engineering
-│   ├── email/               # Email security
-│   ├── grc/                 # Compliance, risk, audit
-│   ├── data-security/       # DSPM, DLP, data discovery
-│   ├── fraud/               # Identity verification, fraud prevention
-│   └── network/             # Firewall and network vendors
-├── security-icons/          # Security icon set (PNG, raster)
-├── security-3d/             # Security icons, 3D renders (PNG + WebP)
-├── security-illustration/   # Security illustrations (PNG)
-├── motion/                  # Animated security glyphs (SMIL SVG, 64x64)
-├── stack/                   # Infra, DevOps, cloud, OS, virtualization, platform tools
-├── programming/             # Programming languages, frameworks, and developer tools
-├── brands/                  # Generic brand marks
-├── unicons-line/            # Unicons line icon set
-├── unicons-solid/           # Unicons solid icon set
-└── README.md
 ```
 
 **Totals:** 3302 image files (2193 SVG, 945 PNG, 164 WebP).
