@@ -19,6 +19,7 @@ logo/
 │   ├── appsec/              # SAST, DAST, SCA, secrets scanning, supply chain
 │   ├── pentest/             # Pentest platforms, red team, C2, bug bounty
 │   ├── forensics/           # Forensics, IR, sandbox, reverse engineering
+│   ├── e-discovery/         # eDiscovery and review platforms
 │   ├── email/               # Email security
 │   ├── grc/                 # Compliance, risk, audit
 │   ├── data-security/       # DSPM, DLP, data discovery
@@ -36,13 +37,13 @@ logo/
 └── README.md
 ```
 
-**Totals:** 3302 image files (2193 SVG, 945 PNG, 164 WebP).
+**Totals:** 3375 image files (2196 SVG, 1015 PNG, 164 WebP).
 
 | Folder | Files | Formats |
 |---|---:|---|
 | `security/` | 382 | 381 SVG, 1 PNG (`covenant.png`) |
 | `security-tools/` | 28 | PNG (OSS marks with no published SVG) |
-| `security-enterprise/` | 268 | PNG + SVG, split into 15 groups |
+| `security-enterprise/` | 341 | PNG + SVG, split into 16 groups |
 | `security-icons/` | 642 | PNG |
 | `security-3d/` | 175 | PNG (17), WebP (158) |
 | `security-illustration/` | 18 | PNG |
@@ -53,28 +54,29 @@ logo/
 | `brands/` | 12 | SVG |
 | `unicons-line/` | 1215 | SVG |
 | `unicons-solid/` | 190 | SVG |
-| **Total** | **3302** | **2193 SVG, 945 PNG, 164 WebP** |
+| **Total** | **3375** | **2196 SVG, 1015 PNG, 164 WebP** |
 
 ### `security-enterprise/` groups
 
 | Group | Files | Covers |
 |---|---:|---|
 | `iam/` | 33 | IAM, SSO, PAM, secrets, password managers |
-| `xdr-edr/` | 28 | EDR, XDR, MDR, managed detection |
+| `xdr-edr/` | 29 | EDR, XDR, MDR, managed detection |
 | `siem/` | 25 | SIEM, log analytics, SOAR |
 | `cloud/` | 24 | CNAPP, CSPM, container, Kubernetes |
-| `forensics/` | 24 | Forensics, IR, malware analysis, reverse engineering |
 | `appsec/` | 23 | SAST, DAST, SCA, secrets scanning, supply chain |
-| `tip/` | 19 | Threat intelligence, brand protection |
-| `pentest/` | 19 | Pentest platforms, red team, C2, bug bounty |
+| `tip/` | 23 | Threat intelligence, brand protection |
+| `pentest/` | 20 | Pentest platforms, red team, C2, bug bounty |
 | `ids-ips/` | 14 | IDS/IPS, NDR, network detection |
 | `waf/` | 14 | WAF, CDN, edge protection |
 | `grc/` | 13 | Compliance, risk, audit |
+| `forensics/` | 84 | Forensics suites, DFIR platforms, mobile, malware analysis, reverse engineering |
+| `e-discovery/` | 7 | eDiscovery and review platforms |
 | `email/` | 12 | Email security |
 | `network/` | 8 | Firewall and network vendors |
 | `data-security/` | 6 | DSPM, DLP, data discovery |
 | `fraud/` | 6 | Identity verification, fraud prevention |
-| **Total** | **268** | |
+| **Total** | **341** | |
 
 Group assignment is reproducible:
 `python3 ai-tools/generators/regroup_company_logos.py --logo-dir /home/moon/Projects/logo`
