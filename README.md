@@ -19,7 +19,7 @@ logo/
 └── README.md
 ```
 
-**Totals:** 2848 image files (2011 SVG, 679 PNG, 158 WebP).
+**Totals:** 2849 image files (2012 SVG, 679 PNG, 158 WebP).
 
 | Folder | Files | Formats |
 |---|---:|---|
@@ -28,13 +28,13 @@ logo/
 | `security-3d/` | 175 | PNG (17), WebP (158) |
 | `security-illustration/` | 18 | PNG |
 | `motion/` | 19 | SVG (animated, SMIL) |
-| `stack/` | 71 | 70 SVG, 1 PNG (`kvm.png`) |
+| `stack/` | 72 | 71 SVG, 1 PNG (`kvm.png`) |
 | `programming/` | 96 | SVG |
 | `profession/` | 62 | SVG |
 | `brands/` | 12 | SVG |
 | `unicons-line/` | 1215 | SVG |
 | `unicons-solid/` | 190 | SVG |
-| **Total** | **2848** | **2011 SVG, 679 PNG, 158 WebP** |
+| **Total** | **2849** | **2012 SVG, 679 PNG, 158 WebP** |
 
 `profession/` and `security-icons/` each also carry a `LICENSE.txt` for the
 upstream icon set (not counted above).
@@ -90,7 +90,7 @@ upstream icon set (not counted above).
 | <img src="stack/gitlab.svg" height="40"> | <img src="stack/gnome-boxes.svg" height="40"> | <img src="stack/gnome-terminal.svg" height="40"> | <img src="stack/grafana.svg" height="40"> | <img src="stack/hadoop.svg" height="40"> | <img src="stack/hashicorp.svg" height="40"> | <img src="stack/helm.svg" height="40"> | <img src="stack/jenkins.svg" height="40"> | <img src="stack/kafka.svg" height="40"> | <img src="stack/kubernetes.svg" height="40"> |
 | <img src="stack/kvm.png" height="40"> | <img src="stack/libvirt.svg" height="40"> | <img src="stack/linux.svg" height="40"> | <img src="stack/nginx.svg" height="40"> | <img src="stack/ngrok.svg" height="40"> | <img src="stack/openbsd.svg" height="40"> | <img src="stack/opentelemetry.svg" height="40"> | <img src="stack/postgresql.svg" height="40"> | <img src="stack/prometheus.svg" height="40"> | <img src="stack/qemu.svg" height="40"> |
 | <img src="stack/raspberry-pi.svg" height="40"> | <img src="stack/redhat.svg" height="40"> | <img src="stack/redis.svg" height="40"> | <img src="stack/spark.svg" height="40"> | <img src="stack/splunk.svg" height="40"> | <img src="stack/sqlite.svg" height="40"> | <img src="stack/swagger.svg" height="40"> | <img src="stack/terraform.svg" height="40"> | <img src="stack/trafik.svg" height="40"> | <img src="stack/ubuntu.svg" height="40"> |
-| <img src="stack/vault.svg" height="40"> | <img src="stack/virt-manager.svg" height="40"> | <img src="stack/virtualbox.svg" height="40"> | <img src="stack/vmware-netcfg.svg" height="40"> | <img src="stack/vmware-player.svg" height="40"> | <img src="stack/vmware-workstation.svg" height="40"> | <img src="stack/vmware.svg" height="40"> | <img src="stack/windows.svg" height="40"> |   |   |
+| <img src="stack/vault.svg" height="40"> | <img src="stack/virt-manager.svg" height="40"> | <img src="stack/virtualbox.svg" height="40"> | <img src="stack/vmware-netcfg.svg" height="40"> | <img src="stack/vmware-player.svg" height="40"> | <img src="stack/vmware-workstation.svg" height="40"> | <img src="stack/vmware.svg" height="40"> | <img src="stack/windows.svg" height="40"> | <img src="stack/linux-tux.svg" height="40"> |   |
 | <img src="stack/apachekafka.svg" height="40"> | <img src="stack/chronograf.svg" height="40"> | <img src="stack/iis.svg" height="40"> | <img src="stack/influxdb.svg" height="40"> | <img src="stack/kapacitor.svg" height="40"> | <img src="stack/kibana.svg" height="40"> | <img src="stack/logstash.svg" height="40"> | <img src="stack/mariadb.svg" height="40"> | <img src="stack/mongodb.svg" height="40"> | <img src="stack/mysql.svg" height="40"> |
 | <img src="stack/opensearch.svg" height="40"> | <img src="stack/rabbitmq.svg" height="40"> | <img src="stack/telegraf.svg" height="40"> |   |   |   |   |   |   |   |
 
