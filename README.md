@@ -18,7 +18,9 @@ logo/
 ├── motion/                  # Animated glyphs/spinners (SMIL SVG, WebP)
 ├── stack/                   # Infra, DevOps, cloud, OS, virtualization, platform tools
 ├── programming/             # Programming languages, frameworks, and developer tools
-├── brands/                  # Generic brand marks
+├── brands/                  # Brand/logo collections (big brands, tech, self-hosted, dashboards)
+│   ├── simple-icons/  gilbarbara-logos/  devicon/  supertinyicons/  skill-icons/
+│   ├── selfhst-icons/  homelab-svg-assets/  dashboard-icons/  svgl/
 ├── networking/              # Network device icons (router/switch/server/firewall/AP, etc.)
 │   ├── network-automation/  # Ansible/Red Hat networking icons (Apache-2.0)
 │   ├── bwks/                # bwks network-icons-svg (GPL-3.0)
@@ -37,7 +39,7 @@ logo/
 └── README.md
 ```
 
-**Totals:** 5503 image files (4333 SVG, 990 PNG, 164 WebP, 10 JPG, 6 ICO).
+**Totals:** 29677 image files (28418 SVG, 1063 PNG, 164 WebP, 27 JPG, 5 ICO).
 
 | Folder | Images | Notes |
 |---|---:|---|
@@ -51,7 +53,7 @@ logo/
 | `stack/` | 117 | 116 SVG, 1 PNG |
 | `programming/` | 122 | SVG |
 | `profession/` | 62 | SVG |
-| `brands/` | 12 | SVG |
+| `brands/` | 21610 | SVG (generic marks + 9 imported brand/logo collections; see below) |
 | `networking/` | 291 | IT/network devices (router, switch, server, firewall, LB, cloud, etc.) — see sources |
 | `industrial/` | 1698 | OT/ICS/SCADA/HMI/PLC/electrical/process widgets & vectors — see sources |
 | `iot-electronics/` | 127 | IoT/embedded boards, sensors, displays, comms, modules — see sources |
@@ -59,7 +61,7 @@ logo/
 | `icon-sources/` | 0 | `SOURCES.md` + per-collection license/source notes |
 | `unicons-line/` | 1215 | SVG |
 | `unicons-solid/` | 190 | SVG |
-| **Total** | **5503** | **4333 SVG, 990 PNG, 164 WebP, 10 JPG, 6 ICO** |
+| **Total** | **29677** | **28418 SVG, 1063 PNG, 164 WebP, 27 JPG, 5 ICO** |
 
 ### `security-enterprise/` groups
 
@@ -105,6 +107,24 @@ Imported 2026-11-17 (searched/analyzed via `ai-tools/fetch/google_search.py`, sh
 | `hardware/iconoir-devices/` | iconoir-icons/iconoir (subset) | MIT | Device/hardware subset (server, CPU/chip, laptop/PC, wifi) |
 
 Notes: `aci686` and `minimalistic` imported without an upstream license file (per request; verify before redistribution). Review GPL/MPL/Apache/MIT terms per collection when redistributing.
+
+## Brand / Big-brand Logo Sources
+
+Imported 2026-11-17 (shallow clones to `/tmp/kilo/`). See `icon-sources/SOURCES.md` and each collection's `SOURCE.md`/upstream license file.
+
+| Folder | Upstream | License / note | Covers |
+|---|---|---|---|
+| `brands/simple-icons/` | simple-icons/simple-icons | CC0-1.0 | ~3472 SVG brand icons (tech/software/services) |
+| `brands/gilbarbara-logos/` | gilbarbara/logos | CC0-1.0 | ~2070 SVG tech/brand logos |
+| `brands/devicon/` | devicons/devicon | MIT | ~2120 SVG language/tool/framework & brand icons |
+| `brands/supertinyicons/` | edent/SuperTinyIcons | MIT | ~479 tiny SVG brand/social icons |
+| `brands/selfhst-icons/` | selfhst/icons | CC-BY-4.0 (attribution required) | ~7435 SVG self-hosted/service & software logos |
+| `brands/homelab-svg-assets/` | loganmarchione/homelab-svg-assets | MIT | ~614 SVG homelab/self-hosted/infra assets |
+| `brands/dashboard-icons/` | walkxcode/dashboard-icons | Apache-2.0 | ~3883 SVG dashboard/service & brand logos |
+| `brands/svgl/` | pheralb/svgl | MIT | ~1124 SVG brand logos (Google, Microsoft, Apple, Amazon, etc.) |
+| `brands/skill-icons/` | tandpfun/skill-icons | MIT | ~402 SVG skill/tech & brand icons |
+
+Notes: brand marks are trademarks of their respective owners even where icon files are permissively licensed; comply with each collection’s terms (selfhst requires attribution).
 
 ## Gallery
 
