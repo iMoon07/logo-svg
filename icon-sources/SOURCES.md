@@ -129,3 +129,18 @@ Sumber komprehensif (Innerscene/Notch/CADXChange/CIBSE/HMI/P&ID packs, sebagian 
 | `civil-architecture/lucide-architecture/` | https://github.com/lucide-icons/lucide | **ISC/MIT** per upstream. | 16 SVG. |
 
 Note: these are **general UI/icon set subsets** selected by keywords (useful supplements), not comprehensive engineering/P&ID/single-line technical symbol libraries. Comprehensive MEP/civil/architectural technical symbol sets with clear public-redistribution SVG licenses remain limited in staged sources.
+
+## Batch 8 additions (2026-11-17, P&ID/SLD focus + full-color illustrations)
+
+| Destination in `logo/` | Upstream | License / permission note | Contents (summary) |
+|---|---|---|---|
+| `electrical/ng-diagram-sld-iec60617/` | https://github.com/synergycodes/ng-diagram-single-line-diagram (`src/assets/symbols`) | **CC BY 3.0** for derived symbol artwork (from QElectroTech elements; see upstream NOTICE.md & imported NOTICE.upstream.md). Attribution required (QElectroTech team/contributors + upstream). Upstream app code MIT (not imported). | 15 IEC 60617 SLD SVG symbols (breaker, disconnector, earthing switch, CT/VT/CVT, transformer 2w/3w, generator, motor, ground, protection relay, surge arrester, shunt reactor/capacitor). **Schematic/technical** (stroke=currentColor, not multicolor). |
+| `mep-construction/openmoji-color/` | https://github.com/hfg-gmuend/openmoji (`color/svg`, keyword-selected) | **CC BY-SA 4.0**. Attribution + ShareAlike. | 108 full-color illustrations: `fire-protection/` (47), `process-industrial/` (61). Visual/illustrative, not technical P&ID symbols. |
+| `electrical/openmoji-color/` | https://github.com/hfg-gmuend/openmoji (`color/svg`, keyword-selected) | **CC BY-SA 4.0**. Attribution + ShareAlike. | 73 full-color electrical/device illustrations. |
+| `mep-construction/fluent-emoji-color/` | https://github.com/microsoft/fluentui-emoji (`assets/*/Color`, keyword-selected) | **MIT**. | 24 full-color emoji-style illustrations: `fire-protection/` (8), `process-industrial/` (16). |
+| `electrical/fluent-emoji-color/` | https://github.com/microsoft/fluentui-emoji (`assets/*/Color`, keyword-selected) | **MIT**. | 14 full-color electrical illustrations. |
+
+### Notes (batch 8)
+- **Colored vs technical:** per request, full-color illustrations added (OpenMoji/Fluent). Technical SLD symbols (ng-diagram) are schematic monochrome by nature; kept as engineering symbols with clear attribution. Multicolor illustrations kept in separate `*-color/` subfolders to distinguish from technical/schematic sets.
+- **Inspected but not imported:** `Grindstone-Systems/visual-toolkit` (Apache-2.0) is procedural/generative (few static SVG exports in repo) — better as source to generate/export SVGs than as a static icon import; `African-River-Corridors/drawing-format-standard` provides example P&ID drawings (not an icon library); `qelectrotech/qelectrotech-elements` contains ~9028 `.elmt` (XML) elements (CC BY terms in ELEMENTS.LICENSE) — needs conversion tooling to SVG before import; `siemens/ix-icons` (MIT) mostly monochrome UI icons. `HMI Library`, `Streamline Color`, `IconPark`, `Energy Icons` etc. require per-asset/license/redistribution or download-limit review.
+- **Still pending (P&ID→SLD→Fire then HVAC/Plumbing/Civil/Arch):** comprehensive technical P&ID symbol SVG sets (pump/valve/tank/pipe fittings/instruments), fuller colored HMI/equipment libraries with clear redistribution, fire-protection technical schematics, HVAC/plumbing/civil/architecture engineering symbols — continue sourcing CC0/MIT/Apache/CC-BY redistributable SVGs.
