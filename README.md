@@ -7,54 +7,59 @@ Local logo assets collected for the **Logo Field — Chaos Mode** (hacking/cyber
 ```text
 logo/
 ├── security/                # Hacking, pentest, forensics, IDS/IPS, C2, defense tools
-├── security-tools/          # OSS security tools whose only mark is a raster favicon
+├── security-tools/          # OSS security tools whose only mark is a raster/favicon
 ├── security-enterprise/     # Commercial vendors, split by product category
-│   ├── siem/                # SIEM, log analytics, SOAR, SOC platforms
-│   ├── tip/                 # Threat intelligence, brand & exposure intel
-│   ├── ids-ips/             # IDS/IPS, NDR, network detection
-│   ├── waf/                 # WAF, CDN, edge protection
-│   ├── iam/                 # Identity, SSO, PAM, secrets, password managers
-│   ├── xdr-edr/             # EDR, XDR, MDR, managed detection
-│   ├── cloud/               # Cloud, container, Kubernetes, CNAPP, CSPM
-│   ├── appsec/              # SAST, DAST, SCA, secrets scanning, supply chain
-│   ├── pentest/             # Pentest platforms, red team, C2, bug bounty
-│   ├── forensics/           # Forensics, IR, sandbox, reverse engineering
-│   ├── e-discovery/         # eDiscovery and review platforms
-│   ├── email/               # Email security
-│   ├── grc/                 # Compliance, risk, audit
-│   ├── data-security/       # DSPM, DLP, data discovery
-│   ├── fraud/               # Identity verification, fraud prevention
-│   └── network/             # Firewall and network vendors
+│   ├── siem/  tip/  ids-ips/  waf/  iam/  xdr-edr/  cloud/  appsec/
+│   ├── pentest/  forensics/  e-discovery/  email/  grc/  data-security/
+│   ├── fraud/  network/
 ├── security-icons/          # Security icon set (PNG, raster)
 ├── security-3d/             # Security icons, 3D renders (PNG + WebP)
 ├── security-illustration/   # Security illustrations (PNG)
-├── motion/                  # Animated security glyphs (SMIL SVG, 64x64)
+├── motion/                  # Animated glyphs/spinners (SMIL SVG, WebP)
 ├── stack/                   # Infra, DevOps, cloud, OS, virtualization, platform tools
 ├── programming/             # Programming languages, frameworks, and developer tools
 ├── brands/                  # Generic brand marks
+├── networking/              # Network device icons (router/switch/server/firewall/AP, etc.)
+│   ├── network-automation/  # Ansible/Red Hat networking icons (Apache-2.0)
+│   ├── bwks/                # bwks network-icons-svg (GPL-3.0)
+│   ├── aci686/              # Vendor-neutral SVG network icons (no upstream LICENSE file)
+│   └── minimalistic/        # Minimalist GNS3/Packet Tracer icons (no upstream LICENSE file)
+├── industrial/              # OT/ICS/SCADA/HMI/PLC/process/electrical visuals
+│   ├── fuxa-svg-widgets/    # FUXA SVG widgets (MIT)
+│   └── tchmi-vectors/       # TwinCAT HMI vector icons (MIT)
+├── iot-electronics/         # IoT/embedded/electronics boards, sensors, modules
+│   └── usini-diagrams/      # Electronics diagrams (MPL-2.0)
+├── hardware/                # IT hardware/device icons (PC, CPU, chip, laptop, wifi, etc.)
+│   └── iconoir-devices/     # Device subset from Iconoir (MIT)
+├── icon-sources/            # Source/license notes for imported device collections
 ├── unicons-line/            # Unicons line icon set
 ├── unicons-solid/           # Unicons solid icon set
 └── README.md
 ```
 
-**Totals:** 3375 image files (2196 SVG, 1015 PNG, 164 WebP).
+**Totals:** 5503 image files (4333 SVG, 990 PNG, 164 WebP, 10 JPG, 6 ICO).
 
-| Folder | Files | Formats |
+| Folder | Images | Notes |
 |---|---:|---|
-| `security/` | 382 | 381 SVG, 1 PNG (`covenant.png`) |
-| `security-tools/` | 28 | PNG (OSS marks with no published SVG) |
-| `security-enterprise/` | 341 | PNG + SVG, split into 16 groups |
+| `security/` | 382 | 381 SVG, 1 PNG |
+| `security-tools/` | 27 | Raster marks/favicons (PNG/JPG; corrupt `empire.png` removed, valid mark in `security/powershell-empire.svg`) |
+| `security-enterprise/` | 341 | PNG/SVG/JPG/ICO, 16 groups (30 misnamed PNGs fixed to correct JPG/ICO extensions) |
 | `security-icons/` | 642 | PNG |
-| `security-3d/` | 175 | PNG (17), WebP (158) |
+| `security-3d/` | 175 | PNG + WebP |
 | `security-illustration/` | 18 | PNG |
-| `motion/` | 71 | SVG (65 animated SMIL), WebP (6) |
-| `stack/` | 117 | 116 SVG, 1 PNG (`kvm.png`) |
+| `motion/` | 71 | SVG (animated SMIL) + WebP |
+| `stack/` | 117 | 116 SVG, 1 PNG |
 | `programming/` | 122 | SVG |
 | `profession/` | 62 | SVG |
 | `brands/` | 12 | SVG |
+| `networking/` | 291 | IT/network devices (router, switch, server, firewall, LB, cloud, etc.) — see sources |
+| `industrial/` | 1698 | OT/ICS/SCADA/HMI/PLC/electrical/process widgets & vectors — see sources |
+| `iot-electronics/` | 127 | IoT/embedded boards, sensors, displays, comms, modules — see sources |
+| `hardware/` | 13 | Device/hardware icon subset (server/cpu/chip/laptop/wifi) — see sources |
+| `icon-sources/` | 0 | `SOURCES.md` + per-collection license/source notes |
 | `unicons-line/` | 1215 | SVG |
 | `unicons-solid/` | 190 | SVG |
-| **Total** | **3375** | **2196 SVG, 1015 PNG, 164 WebP** |
+| **Total** | **5503** | **4333 SVG, 990 PNG, 164 WebP, 10 JPG, 6 ICO** |
 
 ### `security-enterprise/` groups
 
@@ -83,6 +88,23 @@ Group assignment is reproducible:
 
 `profession/` and `security-icons/` each also carry a `LICENSE.txt` for the
 upstream icon set (not counted above).
+
+## Device/Infrastructure Sources (IT · OT · IoT · ICS)
+
+Imported 2026-11-17 (searched/analyzed via `ai-tools/fetch/google_search.py`, shallow clones to `/tmp/kilo/`). See `icon-sources/SOURCES.md` and each collection's `SOURCE.md`/upstream license file.
+
+| Folder | Upstream | License / note | Covers |
+|---|---|---|---|
+| `networking/network-automation/` | network-automation/networking-icons | Apache-2.0 | Routers, switches, servers, firewall, load balancer, bridge, cloud, tor |
+| `networking/bwks/` | bwks/network-icons-svg | GPL-3.0 | Network device SVG icons |
+| `networking/aci686/` | aci686/Network-Icons-SVG | No upstream LICENSE file found (README: freely usable/vendor-neutral) | Vendor-neutral network SVG icons |
+| `networking/minimalistic/` | tmusabaika/minimalistic-networking-icons | No upstream LICENSE file found (free minimalist icons) | Minimalist device icons (GNS3/Packet Tracer) |
+| `industrial/fuxa-svg-widgets/` | frangoteam/FUXA-SVG-Widgets | MIT | SCADA/HMI, controls/gauges, PLC/electrical, process/industrial |
+| `industrial/tchmi-vectors/` | benhar-dev/tchmi-vector-icons-and-images | MIT | HMI vector images/icons |
+| `iot-electronics/usini-diagrams/` | usini/diagrams | MPL-2.0 | Electronics/IoT: Arduino, ESP32/8266, sensors, displays, comms |
+| `hardware/iconoir-devices/` | iconoir-icons/iconoir (subset) | MIT | Device/hardware subset (server, CPU/chip, laptop/PC, wifi) |
+
+Notes: `aci686` and `minimalistic` imported without an upstream license file (per request; verify before redistribution). Review GPL/MPL/Apache/MIT terms per collection when redistributing.
 
 ## Gallery
 
